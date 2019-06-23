@@ -19,16 +19,51 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"%i", [self reverse:123]);
-    NSLog(@"%i", [self reverse:-123]);
-    NSLog(@"%i", [self reverse:120]);
-    NSLog(@"%i", [self reverse:-120]);
-    
     //溢出 2147483647 -2147483648
-    NSLog(@"%i", [self reverse:(1000000003)]);
-    NSLog(@"%i", [self reverse:(1000000009)]);
-    NSLog(@"%i", [self reverse:(1463847421)]);
-    NSLog(@"%i", [self reverse:(-1463847421)]);
+    {
+        NSLog(@"%i", [self reverse:123]);
+        NSLog(@"%i", [self reverse:-123]);
+        NSLog(@"%i", [self reverse:120]);
+        NSLog(@"%i", [self reverse:-120]);
+        NSLog(@"%i", [self reverse:(1000000003)]);
+        NSLog(@"%i", [self reverse:(1000000009)]);
+        NSLog(@"%i", [self reverse:(1463847421)]);
+        NSLog(@"%i", [self reverse:(-1463847421)]);
+    }
+    
+    NSLog(@"----------------------");
+    
+    {
+        NSLog(@"%i", reverse(123));
+        NSLog(@"%i", reverse(-123));
+        NSLog(@"%i", reverse(120));
+        NSLog(@"%i", reverse(-120));
+        NSLog(@"%i", reverse(1000000003));
+        NSLog(@"%i", reverse(1000000009));
+        NSLog(@"%i", reverse(1463847421));
+        NSLog(@"%i", reverse(-1463847421));
+    }
+    
+}
+
+//C
+int reverse(int x)
+{
+    long ret = 0;
+    while (x != 0)
+    {
+        int a = x % 10;
+        ret = ret * 10 + a;
+        
+        if (ret > INT_MAX || ret < INT_MIN)
+        {
+            return 0;
+        }
+        
+        x = (x - a) / 10;
+    }
+    
+    return (int)ret;
 }
 
 //OC
