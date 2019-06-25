@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAFEB4F22C23B2700582290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFEB4E22C23B2700582290 /* AppDelegate.m */; };
+		7BAFEB5222C23B2700582290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFEB5122C23B2700582290 /* ViewController.m */; };
+		7BAFEB5522C23B2700582290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFEB5322C23B2700582290 /* Main.storyboard */; };
+		7BAFEB5722C23B2A00582290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFEB5622C23B2A00582290 /* Assets.xcassets */; };
+		7BAFEB5A22C23B2A00582290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFEB5822C23B2A00582290 /* LaunchScreen.storyboard */; };
+		7BAFEB5D22C23B2A00582290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFEB5C22C23B2A00582290 /* main.m */; };
+		7BAFEB6722C23B2A00582290 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFEB6622C23B2A00582290 /* _________Tests.m */; };
+		7BAFEB7222C23B2A00582290 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFEB7122C23B2A00582290 /* _________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BAFEB6322C23B2A00582290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAFEB4222C23B2700582290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAFEB4922C23B2700582290;
+			remoteInfo = "无重复的最长字符串";
+		};
+		7BAFEB6E22C23B2A00582290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAFEB4222C23B2700582290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAFEB4922C23B2700582290;
+			remoteInfo = "无重复的最长字符串";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BAFEB4A22C23B2700582290 /* 无重复的最长字符串.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无重复的最长字符串.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFEB4D22C23B2700582290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BAFEB4E22C23B2700582290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BAFEB5022C23B2700582290 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BAFEB5122C23B2700582290 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BAFEB5422C23B2700582290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAFEB5622C23B2A00582290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAFEB5922C23B2A00582290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAFEB5B22C23B2A00582290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFEB5C22C23B2A00582290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BAFEB6222C23B2A00582290 /* 无重复的最长字符串Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无重复的最长字符串Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFEB6622C23B2A00582290 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		7BAFEB6822C23B2A00582290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFEB6D22C23B2A00582290 /* 无重复的最长字符串UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无重复的最长字符串UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFEB7122C23B2A00582290 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		7BAFEB7322C23B2A00582290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAFEB4722C23B2700582290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB5F22C23B2A00582290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB6A22C23B2A00582290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAFEB4122C23B2700582290 = {
+			isa = PBXGroup;
+			children = (
+				7BAFEB4C22C23B2700582290 /* 无重复的最长字符串 */,
+				7BAFEB6522C23B2A00582290 /* 无重复的最长字符串Tests */,
+				7BAFEB7022C23B2A00582290 /* 无重复的最长字符串UITests */,
+				7BAFEB4B22C23B2700582290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAFEB4B22C23B2700582290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFEB4A22C23B2700582290 /* 无重复的最长字符串.app */,
+				7BAFEB6222C23B2A00582290 /* 无重复的最长字符串Tests.xctest */,
+				7BAFEB6D22C23B2A00582290 /* 无重复的最长字符串UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAFEB4C22C23B2700582290 /* 无重复的最长字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFEB4D22C23B2700582290 /* AppDelegate.h */,
+				7BAFEB4E22C23B2700582290 /* AppDelegate.m */,
+				7BAFEB5022C23B2700582290 /* ViewController.h */,
+				7BAFEB5122C23B2700582290 /* ViewController.m */,
+				7BAFEB5322C23B2700582290 /* Main.storyboard */,
+				7BAFEB5622C23B2A00582290 /* Assets.xcassets */,
+				7BAFEB5822C23B2A00582290 /* LaunchScreen.storyboard */,
+				7BAFEB5B22C23B2A00582290 /* Info.plist */,
+				7BAFEB5C22C23B2A00582290 /* main.m */,
+			);
+			path = "无重复的最长字符串";
+			sourceTree = "<group>";
+		};
+		7BAFEB6522C23B2A00582290 /* 无重复的最长字符串Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFEB6622C23B2A00582290 /* _________Tests.m */,
+				7BAFEB6822C23B2A00582290 /* Info.plist */,
+			);
+			path = "无重复的最长字符串Tests";
+			sourceTree = "<group>";
+		};
+		7BAFEB7022C23B2A00582290 /* 无重复的最长字符串UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFEB7122C23B2A00582290 /* _________UITests.m */,
+				7BAFEB7322C23B2A00582290 /* Info.plist */,
+			);
+			path = "无重复的最长字符串UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAFEB4922C23B2700582290 /* 无重复的最长字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFEB7622C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串" */;
+			buildPhases = (
+				7BAFEB4622C23B2700582290 /* Sources */,
+				7BAFEB4722C23B2700582290 /* Frameworks */,
+				7BAFEB4822C23B2700582290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无重复的最长字符串";
+			productName = "无重复的最长字符串";
+			productReference = 7BAFEB4A22C23B2700582290 /* 无重复的最长字符串.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BAFEB6122C23B2A00582290 /* 无重复的最长字符串Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFEB7922C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串Tests" */;
+			buildPhases = (
+				7BAFEB5E22C23B2A00582290 /* Sources */,
+				7BAFEB5F22C23B2A00582290 /* Frameworks */,
+				7BAFEB6022C23B2A00582290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAFEB6422C23B2A00582290 /* PBXTargetDependency */,
+			);
+			name = "无重复的最长字符串Tests";
+			productName = "无重复的最长字符串Tests";
+			productReference = 7BAFEB6222C23B2A00582290 /* 无重复的最长字符串Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BAFEB6C22C23B2A00582290 /* 无重复的最长字符串UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFEB7C22C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串UITests" */;
+			buildPhases = (
+				7BAFEB6922C23B2A00582290 /* Sources */,
+				7BAFEB6A22C23B2A00582290 /* Frameworks */,
+				7BAFEB6B22C23B2A00582290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAFEB6F22C23B2A00582290 /* PBXTargetDependency */,
+			);
+			name = "无重复的最长字符串UITests";
+			productName = "无重复的最长字符串UITests";
+			productReference = 7BAFEB6D22C23B2A00582290 /* 无重复的最长字符串UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAFEB4222C23B2700582290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Leo.Chen;
+				TargetAttributes = {
+					7BAFEB4922C23B2700582290 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7BAFEB6122C23B2A00582290 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7BAFEB4922C23B2700582290;
+					};
+					7BAFEB6C22C23B2A00582290 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7BAFEB4922C23B2700582290;
+					};
+				};
+			};
+			buildConfigurationList = 7BAFEB4522C23B2700582290 /* Build configuration list for PBXProject "无重复的最长字符串" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAFEB4122C23B2700582290;
+			productRefGroup = 7BAFEB4B22C23B2700582290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAFEB4922C23B2700582290 /* 无重复的最长字符串 */,
+				7BAFEB6122C23B2A00582290 /* 无重复的最长字符串Tests */,
+				7BAFEB6C22C23B2A00582290 /* 无重复的最长字符串UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAFEB4822C23B2700582290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFEB5A22C23B2A00582290 /* LaunchScreen.storyboard in Resources */,
+				7BAFEB5722C23B2A00582290 /* Assets.xcassets in Resources */,
+				7BAFEB5522C23B2700582290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB6022C23B2A00582290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB6B22C23B2A00582290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAFEB4622C23B2700582290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFEB5222C23B2700582290 /* ViewController.m in Sources */,
+				7BAFEB5D22C23B2A00582290 /* main.m in Sources */,
+				7BAFEB4F22C23B2700582290 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB5E22C23B2A00582290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFEB6722C23B2A00582290 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFEB6922C23B2A00582290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFEB7222C23B2A00582290 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BAFEB6422C23B2A00582290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAFEB4922C23B2700582290 /* 无重复的最长字符串 */;
+			targetProxy = 7BAFEB6322C23B2A00582290 /* PBXContainerItemProxy */;
+		};
+		7BAFEB6F22C23B2A00582290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAFEB4922C23B2700582290 /* 无重复的最长字符串 */;
+			targetProxy = 7BAFEB6E22C23B2A00582290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BAFEB5322C23B2700582290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFEB5422C23B2700582290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAFEB5822C23B2A00582290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFEB5922C23B2A00582290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAFEB7422C23B2A00582290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BAFEB7522C23B2A00582290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAFEB7722C23B2A00582290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "无重复的最长字符串/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BAFEB7822C23B2A00582290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "无重复的最长字符串/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BAFEB7A22C23B2A00582290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无重复的最长字符串Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无重复的最长字符串.app/无重复的最长字符串";
+			};
+			name = Debug;
+		};
+		7BAFEB7B22C23B2A00582290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无重复的最长字符串Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无重复的最长字符串.app/无重复的最长字符串";
+			};
+			name = Release;
+		};
+		7BAFEB7D22C23B2A00582290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无重复的最长字符串UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "无重复的最长字符串";
+			};
+			name = Debug;
+		};
+		7BAFEB7E22C23B2A00582290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无重复的最长字符串UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoChen.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "无重复的最长字符串";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAFEB4522C23B2700582290 /* Build configuration list for PBXProject "无重复的最长字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFEB7422C23B2A00582290 /* Debug */,
+				7BAFEB7522C23B2A00582290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAFEB7622C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFEB7722C23B2A00582290 /* Debug */,
+				7BAFEB7822C23B2A00582290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAFEB7922C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFEB7A22C23B2A00582290 /* Debug */,
+				7BAFEB7B22C23B2A00582290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAFEB7C22C23B2A00582290 /* Build configuration list for PBXNativeTarget "无重复的最长字符串UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFEB7D22C23B2A00582290 /* Debug */,
+				7BAFEB7E22C23B2A00582290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BAFEB4222C23B2700582290 /* Project object */;
+}
